@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<!--<> are called angle brackets.-->
+<!--Alt Z or go to the 3 bars at top left, View, Word Wrap to fit everything within the window-->
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <title>Interaction Design - T2A2</title>
+
+<!--Style notes: A CSS style includes a selector (what you want to apply the style to, e.g. p for paragraph, h1 for the largest header) and one or more property/value pairs which is the :. Curly brackets are used to contain the property/values to be applied. 
+    - E.G. p{color:red;} This means all p (paragraphs) will be the color red.
+    
+    - Class starts with ., it can be used to style just one paragraph on the page without affecting the rest. 
+    - ID starts with #, it can be used to style a unique element that only appears once. E.g. background. Unlike a class, an ID can be used once on the whole page.
+    -->
+    <style>
+        .light-violet {color:#cf9fff;}
+        #purple-bg {background:#800080;}
+        h3{background:#663366;color:white;padding:20px;margin-top:40px}
+        h1,p{font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;}
+        #gradient-purple-bg {background: linear-gradient(to bottom,  #b15dc1 0%,#9606a0 99%);}
+    </style>
+        <p class="light-violet">Am I confused?</p>
+        <a class="light-violet">Yes, I am. <br/><br/>Or am I?</a>
+    </head>
+    <!--<body id="purple-bg">-->
+    <body id="gradient-purple-bg">
+
+<!--<h1> to <h6>: The smaller the number the higher the priority (ie bigger)-->
+        <h1>PANG CHI LING</h1>
+        <h3>PROFILE</h3>
+        <p>I'm either blind</p>
+        <p>or there is no</p>
+        <p>lorem-ipsum text document or whatever in the tutorial folder</p>
+
+<!--Hyperlink is using <a> tag. The href attribute is used to contain the address. Any other tag placed within the <a> tag will be a clickable hyperlink, even an image.-->
+
+<!--target="_blank" causes the link to be opened in a new tab rather than the same tab as the website. Pretty good-->
+        <p>I am currently studying at 
+            <a href="http://np.edu.sg/fms" target="_blank">School of Film & Media Studies - NP
+            </a>
+        </p>
+        <h3>PORTFOLIO</h3>
+
+<!--The <img> tag requires an attribute source (src). All attribute values (aka exact name of source) are placed in quotes.-->
+        <a href="https://www.instagram.com/reel/C5fKW9HyHxD/" target="_blank">
+            <img src="1000010106.jpg" title="Everything at Gardens By The Bay is photogenic!!"/>
+        </a>
+<!--Title notes: Title is when you hover your mouse on the image then the title shows up-->
+
+<!--Right click on an image in the browser and Copy Image Address to get the img src from the browser-->
+        <a href="https://media1.tenor.com/m/MYZgsN2TDJAAAAAC/this-is.gif" target="_blank">
+            <img src="https://media1.tenor.com/m/MYZgsN2TDJAAAAAC/this-is.gif" width="320" title="Life in general"/>
+        </a>
+<!--Width notes: If you specify one dimension only, the browser will automatically scale it proportionately. Units are in pixels.-->
+        <p>Dear Diary,</p>
+        <p>Well hello there, you thought I would get all personal with diary stuff right? Well, you're wrong. Here's something else for you:</p>
+        <p>Never gonna give you up<br/>Never gonna let you down</p>
+<!--<b></b> stands for Bold, <i></i> stands for Italic, <u></u> stands for underline-->
+<!--Note that you can't bold headers as they are already bolded. (<h1>-<h6>)-->
+        <p>Childish, I know. Sorry ¯\_(ツ)_/¯.</p>
+        <p>Well <b>HELLO </b>there, <i>This </i>is <u>not</u> important information:</p>
+<!--<ul></ul> stands for unordered list - basically bullet points-->
+<!--<li></li> stands for list item-->
+        <ul>
+            <li>(In my opinion, I have terrible) Photoshop</li>
+            <li>(Fun until it gets real) Web Design</li>
+        </ul>
+        <p>Let me try this with the ordered list ie 1, 2, 3 instead:</p>
+<!--<ol></ol> stands for ordered list. It's the 1., 2., 3., etc.-->
+        <ol>
+            <li>(In my opinion, I have terrible) Photoshop</li>
+            <li>(Fun until it gets real) Web Design</li>
+        </ol>
+    </body>
+</html>
