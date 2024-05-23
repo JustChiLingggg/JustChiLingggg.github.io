@@ -62,6 +62,24 @@
 			text-align:left;
 			color:#999999;
 		}
+		#keyboard p{ /*This keyboard id is part of addon practice*/
+			font-size:1.2em;
+			text-align:left;
+			color:#999999;
+		}
+		#keyboard{
+			/* border:1px solid white; */
+			width:90%; /*width is like how much space of the entire page width is the things in the exclusive container using*/
+			margin:0 auto;
+			display:flex; /*this allows the things in the container to appear in a row*/
+			align-items:center;
+		}
+		#column3{
+			margin:15px 15px; /*first number is for top and bottom space. second number is for left and right space*/
+		}
+		#column4{
+			width:250px;
+		}
 		.white{
 			color:white
 		}
@@ -110,6 +128,14 @@
 				<p>Get a Razer.com exclusive <span class="white">Team Razer V2 Keychain</span> on orders over $84*. Offer ends Apr 30.</p>
 				<p>Use code: <span class="blue">EDUGEARED</span></p> <!--span tags allow you to highlight any text you want and style them accordingly with css-->
 			</div>
+		</div>
+		<!--This keyboarc div is a practice addon for this newsletter-->
+		<div id="keyboard">
+			<div id="column3">
+				<p>The <span class="white">Razer BlackWidow V3 Mini HyperSpeed</span> is ideal for minimalist or smaller setups where desk space is a premium.</p>
+				<p>Use Code: <span class="blue">HYPERGEARED</span></p>
+			</div>
+			<img id="column4" src="blackwidow.jpg"/>
 		</div>
 		<div id="footnote">
 			*offer runs through April 30,2021 or while stocks last.
